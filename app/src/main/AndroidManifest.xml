@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,17 +17,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".IndexActivity"
+            android:name=".ui.IndexActivity"
             android:label="@string/title_activity_index"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".VerifyPhoneActivity" />
+        <activity android:name=".ui.VerifyPhoneActivity" />
         <activity
-            android:name=".GalleryActivity"
+            android:name=".ui.GalleryActivity"
             android:label="@string/title_activity_gallery"
-            android:parentActivityName=".IndexActivity">
+            android:parentActivityName=".ui.IndexActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.pj.sanjuan.elecciones.IndexActivity" />
+                android:value="com.pj.sanjuan.elecciones.ui.IndexActivity" />
         </activity>
     </application>
 

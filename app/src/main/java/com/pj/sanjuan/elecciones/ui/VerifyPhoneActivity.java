@@ -1,4 +1,4 @@
-package com.pj.sanjuan.elecciones;
+package com.pj.sanjuan.elecciones.ui;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -17,6 +17,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
+import com.pj.sanjuan.elecciones.R;
 
 import java.util.concurrent.TimeUnit;
 

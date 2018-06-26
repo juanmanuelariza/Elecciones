@@ -1,4 +1,4 @@
-package com.pj.sanjuan.elecciones;
+package com.pj.sanjuan.elecciones.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.pj.sanjuan.elecciones.R;
 
 public class MainActivity extends AppCompatActivity {
 

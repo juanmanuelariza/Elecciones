@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Elecciones.iml" filepath="$PROJECT_DIR$/Elecciones.iml" />
+      <module fileurl="file://D:\Sistemas\Android\Elecciones\Elecciones.iml" filepath="D:\Sistemas\Android\Elecciones\Elecciones.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\Sistemas\Android\Elecciones\app\app.iml" filepath="D:\Sistemas\Android\Elecciones\app\app.iml" />
     </modules>
   </component>
 </project>
