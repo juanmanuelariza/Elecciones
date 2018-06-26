@@ -8,4 +8,19 @@
     tools:context="com.pj.sanjuan.elecciones.ui.IndexActivity"
     tools:showIn="@layout/app_bar_index">
 
+    <Button
+        android:id="@+id/sign_out"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:onClick="signoutbutton"
+        android:text="Salir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
 </android.support.constraint.ConstraintLayout>
